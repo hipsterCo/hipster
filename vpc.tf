@@ -3,6 +3,7 @@ resource "aws_vpc" "demo" {
   tags = {
     name = "demovpc"
 Name = "demovpc"
+env = "dev"
   }
 
 }
